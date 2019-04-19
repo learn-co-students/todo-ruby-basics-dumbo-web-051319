@@ -24,11 +24,11 @@ def return_a_value
 end
 
 def last_evaluated_value
-  #failre because expected to return phrase 'expert'
+  #failure because expected to return phrase 'expert'. Although I am kind of confused as to what the difference is from the previous test.
   return "expert"
-
 end
 
-def pizza_party
-
+def pizza_party(pizza="cheese")
+#failure because it expected a default of cheese
+ puts #{pizza}
 end
