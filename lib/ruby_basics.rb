@@ -29,6 +29,6 @@ def last_evaluated_value
 end
 
 def pizza_party(pizza="cheese")
-#failure because it expected a default of cheese
- puts #{pizza}
+#failure because it expected a default of cheese. Review Default Arguments II https://learn.co/tracks/web-development-fundamentals/intro-to-ruby/variables-and-methods/introductory-default-arguments-2
+  pizza 
 end
